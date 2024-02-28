@@ -64,3 +64,35 @@ yarn-error.log
 
 # testing
 /coverage
+
+
+#ios
+
+!ios/Podfile
+
+!ios/ReactNativeGoogleAdmob/
+ios/ReactNativeGoogleAdmob/*
+!ios/ReactNativeGoogleAdmob/AppDelegate.h
+!ios/ReactNativeGoogleAdmob/AppDelegate.m
+
+#android
+
+!android/build.gradle
+!android/settings.gradle
+
+!android/app/
+android/app/*
+!android/app/build.gradle
+!android/app/src
+android/app/src/*
+!android/app/src/main
+android/app/src/main/*
+!android/app/src/main/java
+android/app/src/main/java/*
+!android/app/src/main/java/com
+android/app/src/main/java/com/*
+android/app/src/main/java/com/reactnativegoogleadmob/*
+!android/app/src/main/java/com/reactnativegoogleadmob
+!android/app/src/main/java/com/reactnativegoogleadmob/MainApplication.java
+
+vendor

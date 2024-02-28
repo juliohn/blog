@@ -1,0 +1,7 @@
+[ {"key": "news","value": "Novidades"},
+ {"key": "business","value": "Negócios"},
+ {"key": "sports","value": "Esportes"},
+ {"key": "cooking","value": "Culinária"},
+ {"key": "top-ten","value": "Top 10"},
+ {"key": "culture","value": "Cultura"}
+]
