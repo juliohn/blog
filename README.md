@@ -9,6 +9,7 @@ Blog Post Service
       - React-hook-form
       - Lottie-react-native
       - React-native-vector-icons
+      - 
    * Execucao do código
      - Clone o projeto no github
      - Tenha um ambiente react native configurado em seu computador.
@@ -24,6 +25,6 @@ Blog Post Service
     * Funcionalidades
       - Tela inicial Lista os posts de forma intuitiva, lendo os dados do arquivos json conforme citado a cima
       - Tela "SETTINGS" lista os posts de forma que tenham ações para gestao dos mesmos
-        -- Header da pagina SETTINGS, contém um botao verde com simbolo "+ " para indicar uma ação de NOVO POST ao clicar abre o formulario para salvar um novo post. Para incluir um novo post, preencha o formulario respeitando suas validacoes e clique em salvar, caso deseje cancelar, bastar clicar em voltar, ou no botão cancelar.
+      - Header da pagina SETTINGS, contém um botao verde com simbolo "+ " para indicar uma ação de NOVO POST ao clicar abre o formulario para salvar um novo post. Para incluir um novo post, preencha o formulario respeitando suas validacoes e clique em salvar, caso deseje cancelar, bastar clicar em voltar, ou no botão cancelar.
         
             
