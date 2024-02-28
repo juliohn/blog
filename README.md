@@ -29,5 +29,26 @@ Blog Post Service
       - Header da pagina SETTINGS, contém um botao verde com simbolo "+ " para indicar uma ação de NOVO POST ao clicar abre o formulario para salvar um novo post.
       - Para incluir um novo post, preencha o formulario respeitando suas validações e clique em salvar, caso deseje cancelar, bastar clicar em voltar, ou no botão cancelar.
       - Na listagem, ao lado direito inferior de cada item da lista existem dois botões, Editar e Excluir respectivamente representados por icones, ao clicar no botão editar, o formulário ira abrir com os dados do item selecionado, basta alterar o que for necessário respeitando as regras de validação e clicar sob o botão salvar. Para excluir, haverá um modal de confirmação da ação antes de realizar a exclusão.
+
+
+
+      * Detalhes Técnicos
+      -  Sistema baseado em gerenciamento de estado global utilizando a lib XSTATE similar ao redux mas com implementacao mais simples onde todas as ações estao disponiveis sem necessidade de store/reducers/actions/dispaches
+      - Estrutura de pastas : 
+        -- SRC: Pasta onde ficam todos os nossos codigos separando camadas de reponsabilidades
+        -- SRC/ASSETS: Pasta onde ficam os arquivos de midias fixas do projeto
+        -- SRC/COMPONENTS: Pasta onde ficam os componentes do projeto, itens que podemos reutilizar conforme necessidade
+        -- SRC/CONTEXTS: Pasta onde ficam os arquivos referente ao contexto do projeto, tudo que precisar ser compartilhado como contexto para compartilhar informações deve ficar aqui.
+        -- SRC/CONTROLLERS: Pasta onde ficam os arquivos referente as ações do projeto, CANCEL/SHOW_EDITOR/SAVE/EDIT/DELETE/DETAILS
+        -- SRC/HELPERS: Pasta onde ficam os arquivos referente as funções globais do projeto.
+        -- SRC/MODELS: Pasta onde ficam os arquivos referente entidades do projeto neste caso, posts e categorias, e tbm suas respectivas tipagens e leituras iniciais.
+        -- SRC/NAVIGATION: Pasta onde ficam os arquivos referente navegacao do projeto, neste caso implementados STACK NAVIGATOR e TABS NAVIGATOR
+        
+        
+        
+        
+        
+                
+      
       
             
