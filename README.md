@@ -43,6 +43,10 @@ Blog Post Service
         -- SRC/HELPERS: Pasta onde ficam os arquivos referente as funções globais do projeto.
         -- SRC/MODELS: Pasta onde ficam os arquivos referente entidades do projeto neste caso, posts e categorias, e tbm suas respectivas tipagens e leituras iniciais.
         -- SRC/NAVIGATION: Pasta onde ficam os arquivos referente navegacao do projeto, neste caso implementados STACK NAVIGATOR e TABS NAVIGATOR
+        -- SRC/SCREENS: Pasta onde ficam os arquivos referente as telas do projeto
+        -- SRC/THEME: Pasta onde ficam os arquivos referente as cores utilizadas no projeto (thema dark/light) 
+        
+        
         
         
         
