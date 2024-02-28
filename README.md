@@ -45,7 +45,13 @@ Blog Post Service
         -- SRC/NAVIGATION: Pasta onde ficam os arquivos referente navegacao do projeto, neste caso implementados STACK NAVIGATOR e TABS NAVIGATOR
         -- SRC/SCREENS: Pasta onde ficam os arquivos referente as telas do projeto
         -- SRC/THEME: Pasta onde ficam os arquivos referente as cores utilizadas no projeto (thema dark/light) 
+
+        * Arquivo App.tsx
         
+        NavigationContainer =>  Navegação
+        GlobalStateProvider => States Globais
+        ThemeProvider => Tema da aplicação
+        MainNavigation => Rotas
         
         
         
