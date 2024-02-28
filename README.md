@@ -14,7 +14,7 @@ Blog Post Service
      - Tenha um ambiente react native configurado em seu computador.
      - Entre no projeto via cmd/prompt e exececute o comando "yarn/nmp install" para instalar as libs contidas no package.json
      - Entre na pasta ios e execute o comando 'pod install/arch -x86_64 pod install (para mac M1)'
-     - Volte a pasta raiz, start o bundle do projeto com o comando 'yarn start/npm start'
+     - Volte a pasta raiz, inicie o bundle do projeto com o comando 'yarn start/npm start'
      - Escolha qual device deseja executar (para executar no android o device ja precisa estar inicializado)
 
     * Detalhes importantes
