@@ -9,7 +9,6 @@ Blog Post Service
       - React-hook-form
       - Lottie-react-native
       - React-native-vector-icons
-      - 
    * Execucao do código
      - Clone o projeto no github
      - Tenha um ambiente react native configurado em seu computador.
@@ -18,13 +17,17 @@ Blog Post Service
      - Volte a pasta raiz, start o bundle do projeto com o comando 'yarn start/npm start'
      - Escolha qual device deseja executar (para executar no android o device ja precisa estar inicializado)
 
-    * Execucao do código
+    * Detalhes importantes
       - Como este projeto não contempla integracao com o backend, toda vez que o projeto for aberto estará com a configuracao de dados default
       - Dados mocados são dados iniciais vindo do arquivo na raiz do projeto chamado MOCK_DATA_CATEGORY.json e MOCK_DATA_POSTS.json que traz o dados inicias dos POSTS e as categorias fixas de filtro e cadastro.
-
+      
     * Funcionalidades
-      - Tela inicial Lista os posts de forma intuitiva, lendo os dados do arquivos json conforme citado a cima
+      - Tela inicial Lista os posts de forma intuitiva, lendo os dados do arquivos json conforme citado a cima.
+      - Para ver detalhes do post escolhido como sua categoria, e o texto descritivo completo basta clicar no botao 'Leia mais'
+      - Ainda na tela inicial, pode-se optar por filtrar cada post seguindo as categorias previamente cadastradas que vem do arquivo MOCK_DATA_CATEGORY.json que o app irá trazer somente o resultado solicitado por categoria, em caso de não encontrar, irá exibir uma tela amigavel de retorno ao usuario indicando que para o filtro não foram encontrado resultados.
       - Tela "SETTINGS" lista os posts de forma que tenham ações para gestao dos mesmos
-      - Header da pagina SETTINGS, contém um botao verde com simbolo "+ " para indicar uma ação de NOVO POST ao clicar abre o formulario para salvar um novo post. Para incluir um novo post, preencha o formulario respeitando suas validacoes e clique em salvar, caso deseje cancelar, bastar clicar em voltar, ou no botão cancelar.
-        
+      - Header da pagina SETTINGS, contém um botao verde com simbolo "+ " para indicar uma ação de NOVO POST ao clicar abre o formulario para salvar um novo post.
+      - Para incluir um novo post, preencha o formulario respeitando suas validações e clique em salvar, caso deseje cancelar, bastar clicar em voltar, ou no botão cancelar.
+      - Na listagem, ao lado direito inferior de cada item da lista existem dois botões, Editar e Excluir respectivamente representados por icones, ao clicar no botão editar, o formulário ira abrir com os dados do item selecionado, basta alterar o que for necessário respeitando as regras de validação e clicar sob o botão salvar. Para excluir, haverá um modal de confirmação da ação antes de realizar a exclusão.
+      
             
