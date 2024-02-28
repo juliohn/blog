@@ -18,7 +18,7 @@ Blog Post Service
      - Volte a pasta raiz, start o bundle do projeto com o comando 'yarn start/npm start'
      - Escolha qual device deseja executar (para executar no android o device ja precisa estar inicializado)
 
-    * Detalhes importantes
+    * Execucao do código
       - Como este projeto não contempla integracao com o backend, toda vez que o projeto for aberto estará com a configuracao de dados default
       - Dados mocados são dados iniciais vindo do arquivo na raiz do projeto chamado MOCK_DATA_CATEGORY.json e MOCK_DATA_POSTS.json que traz o dados inicias dos POSTS e as categorias fixas de filtro e cadastro.
 
